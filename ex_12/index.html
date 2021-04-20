@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Create User</title>
+    </head>
+    <body>
+        <h1>Create User</h1>
+        <hr>
+        <fieldset>
+            <legend>User Form</legend>
+            <form action="create_user.html" method="GET" enctype="application/x-www-form-urlencoded">
+                
+                <label for="Username">Username:</label><br>
+                <input type="text" name="Username" placeholder="Username" size="30" maxlength="12">
+                <br>
+                <label for="Password">Password</label><br>
+                <input type="password" name="Password" placeholder="Password" size="30" maxlength="8">
+                <br>
+                <br>
+                <div>
+                    <b>Select your favourite superheroe</b></p>
+                    <input type="radio" name="superheros" value="Superman">
+                    <label for="Superman">Superman</label>
+                    <input type="radio" name="superheros" value="Batman">
+                    <label for="Batman">Batman</label>
+                    <input type="radio" name="superheros" value="WonderW" checked>
+                    <label for="WonderW">Wonder Woman</label>
+                    <input type="radio" name="superheros" value="Flash">
+                    <label for="Flash">Flash</label>
+                    <input type="radio" name="superheros" value="Thor">
+                    <label for="Thor">Thor</label>
+                    <input type="radio" name="superheros" value="Hulk">
+                    <label for="Hulk">Hulk</label>
+                </div>  
+                <div>
+                    <p>
+                        <b>Select your favourite video game</b>
+                    </p>
+                    <input type="checkbox" name="videograme" value="FIFA" checked>
+                    <label for="Fifa">FIFA</label>
+                    <input type="checkbox" name="videograme" value="NHL">
+                    <label for="NHL">NHL</label>
+                    <input type="checkbox" name="videograme" value="Resident">
+                    <label for="Resident">Resident Evil</label>
+                    <input type="checkbox" name="videograme" value="Uncharted">
+                    <label for="Uncharted">Uncharted</label>
+                    <br>
+                </div>
+                <div>
+                    <input type="hidden" name="userid" value="2300">
+                </div>
+                <br>
+                <div>
+                    <input type="image" name="login" src="../ex_12/img/register_button.png" width="100" height="100">
+                </div>
+            </form>
+        </fieldset>
+    </body>
+</html>
+            

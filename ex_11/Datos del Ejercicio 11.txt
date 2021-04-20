@@ -1,0 +1,7 @@
+Datos del Ejercicio 11
+method="GET"
+file:///C:/Git/html-exercises/ex_11/login.html?usermane=Viviana&Password=viviana&login=Login
+method="POST"
+file:///C:/Git/html-exercises/ex_11/login.html
+
+
